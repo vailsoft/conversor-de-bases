@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<title>Conversor de Bases Numéricas</title>
+	<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8"
+</head>
+
+<body>
+	<div id="container">
+		<h2>Conversor de Bases</h2>
+		<label for="dec">Decimal</label>
+		<input id="dec" oninput="Convert('dec', 10)" spellcheck="false">
+		
+		<label for="bin">Binário</label>
+		<input id="bin" oninput="Convert('bin', 2)" spellcheck="false">
+		
+		<label for="oct">Octal</label>
+		<input id="oct" oninput="Convert('oct', 8)" spellcheck="false">
+		
+		<label for="hex">Hexadecimal</label>
+		<input id="hex" oninput="Convert('hex', 16)" spellcheck="false">
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
