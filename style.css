@@ -9,22 +9,24 @@ input:focus {
     outline: none;
 }
 
-h2 {
+h2, label{
     text-align: center;
-    margin-top: 20px;
 }
 
 label {
-    margin-left: 40px;
+    font-weight: 800;
     margin-top: 20px;
     margin-top: 20px;
 }
 
 #container {
-    box-shadow: 1px 1px 5px black;
-    width: 250px;
-    height: 260px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px gray;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 12px;
 }
