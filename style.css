@@ -14,6 +14,9 @@ input {
     height: 8vh;
     text-align: center;   
     max-width: 100%;
+    background-color: rgb(72,72,72);
+    color: white;
+    font-weight: 700;
 }
 
 input:focus {
@@ -23,7 +26,7 @@ input:focus {
 
 h2.tit{
     text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: 700;
 }
 
